@@ -1,0 +1,2 @@
+# gindemo02
+.\main.go:62:7: syntax error: unexpected newline in composite literal; possibly missing comma or }
