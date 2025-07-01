@@ -1,0 +1,2 @@
+# github.com/zmsocc/gin/gindemo08/gindemo08_3/middlewares
+middlewares\init.go:21:49: cCp.Request.URL.P undefined (type *url.URL has no field or method P)

@@ -1,4 +1,4 @@
-module gindemo02
+module github.com/zmsocc/gin
 
 go 1.24.0
 

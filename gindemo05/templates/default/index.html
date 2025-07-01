@@ -1,0 +1,36 @@
+{{define "default/index.html"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="\static\css\base.css">
+</head>
+<body>
+
+    {{template "public/page_header.html" .}}
+
+    <h2> {{.title}} <h2>
+    <!-- 定义变量 -->
+    {{$t := .title}}
+    <h4>    
+        {{$t}}
+    </h4>
+
+    <br>
+    {{len .title}}
+    </br>
+
+    <!-- 自定义模板函数 -->
+    <br>
+    {{.date}}
+
+    <br>
+    {{UnixToTime .date}}
+    
+    {{template "public/page_tail.html" .}}
+
+</body>
+</html>
+{{end}}

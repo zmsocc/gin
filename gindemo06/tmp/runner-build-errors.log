@@ -1,0 +1,4 @@
+# github.com/zmsocc/gin/gindemo06/controllers/admin
+controllers\admin\articleController.go:14:2: not enough arguments in call to c.BaseController.Fail
+	have ()
+	want (*gin.Context)

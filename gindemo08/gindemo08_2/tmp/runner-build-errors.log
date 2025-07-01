@@ -1,0 +1,4 @@
+# github.com/zmsocc/gin/gindemo08
+.\main.go:37:2: syntax error: unexpected }, expected name or (
+.\main.go:40:3: syntax error: unexpected newline in argument list; possibly missing comma or )
+.\main.go:42:32: syntax error: unexpected name string at end of statement
