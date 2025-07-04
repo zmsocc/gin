@@ -1,0 +1,3 @@
+# github.com/zmsocc/gin/gindemo09/controllers/occ
+controllers\occ\defaultController.go:4:2: "fmt" imported and not used
+controllers\occ\defaultController.go:8:2: "github.com/zmsocc/gin/gindemo09/models" imported and not used
