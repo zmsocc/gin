@@ -1,0 +1,2 @@
+# github.com/zmsocc/gin/gindemo14/controllers/admin
+controllers\admin\articleController.go:20:2: syntax error: unexpected }, expected expression
