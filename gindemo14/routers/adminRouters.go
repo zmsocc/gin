@@ -18,6 +18,7 @@ func AdminRouters(ctx *gin.Engine) {
 		adminRouters.GET("/article", admin.ArticleController{}.ArticleIndex)
 		adminRouters.GET("/article/add", admin.ArticleController{}.ArticleAdd)
 		adminRouters.GET("/article/edit", admin.ArticleController{}.ArticleEdit)
+		adminRouters.GET("/article/delete", admin.ArticleController{}.ArticleDelete)
 
 		adminRouters.GET("/user", admin.UserController{}.UserIndex)
 		adminRouters.GET("/user/add", admin.UserController{}.UserAdd)

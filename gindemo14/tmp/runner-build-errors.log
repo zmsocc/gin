@@ -1,2 +1,2 @@
-# github.com/zmsocc/gin/gindemo14/controllers/admin
-controllers\admin\articleController.go:20:2: syntax error: unexpected }, expected expression
+# github.com/zmsocc/gin/gindemo14/routers
+routers\adminRouters.go:21:39: cannot use admin.ArticleController.ArticleDelete (value of type func(c admin.ArticleController, ctx *gin.Context)) as gin.HandlerFunc value in argument to adminRouters.GET
