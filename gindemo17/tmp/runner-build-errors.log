@@ -1,0 +1,2 @@
+# github.com/zmsocc/gin/gindemo17/controllers/admin
+controllers\admin\bankController.go:26:25: tx.Save(&u1).E undefined (type *gorm.DB has no field or method E)
